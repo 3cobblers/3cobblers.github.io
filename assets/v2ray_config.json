@@ -6,7 +6,7 @@
 	},
 	"inbounds": [
 		{
-			"port": 23451,
+			"port": 8080,
 			"protocol": "vmess",
 			"settings": {
 				"clients": [
@@ -18,7 +18,12 @@
 				]
 			},
 			"streamSettings": {
-				"network": "tcp"
+				"network": "kcp"
+				"kcpSettings": {
+					"header": {
+						"type": "dtls"
+					}
+				}
 			},
 			"sniffing": {
 				"enabled": true,
