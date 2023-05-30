@@ -111,7 +111,7 @@ plugins:
 
 参考[Chirpy Jekyll Theme](https://github.com/cotes2020/jekyll-theme-chirpy)
 
-### 4. 最后
+### 5. 最后
 Jekyll是一个活跃的开源项目, 经常更新。如果本地github-pages gem与GitHub Pages服务器上的github-pages gem已过期，则站点外观在本地构建时可能与在GitHub上发布时不同。为避免这种情况, 请定期更新计算机上的github-pages gem。
 
 更新方式:
